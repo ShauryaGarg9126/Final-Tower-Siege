@@ -71,7 +71,9 @@ function setup() {
 function draw() {
   if(backgroundImg)
   background(backgroundImg);
- 
+ else{
+   background("white")
+ }
   //Engine.update(engine);
   //text(mouseX + ',' + mouseY, 10, 15);
   
